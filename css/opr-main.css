@@ -1,0 +1,183 @@
+body {
+    background-image: url(../images/Bg.jpg);
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: purple;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cim {
+    text-align: center;
+}
+.kepek1 {
+    display: flex;
+    height: 300px;
+    gap: 0;
+    margin: 0;
+    float: left;
+    background-color: white;
+}
+.kepek1 a {
+    display: block;
+    line-height: 0;
+}
+.kepek1 img {
+    display: block;
+}
+.win-szoveg {
+    height: 100px;
+    text-align: center;
+    color: beige;
+}
+.div1{
+    margin-left: 240px;
+}
+.div1, .div2, .div3 {
+    width: 304px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    float: left;
+    margin-top: 60px;
+    margin-right: 60px;
+    background-color: purple;
+    margin-bottom: 60px;
+}
+.div2, .div3 {
+    gap: 0;
+}
+.div2 .kepek1, .div3 .kepek1 {
+    height: 150px;
+}
+
+section
+{
+    width: 89%;
+    height: 700px;
+    max-width: 800px;
+    float: left;
+    background-color: rgba(245,245,220,0.75);
+    border-radius: 10px;
+    margin-left: 240px;
+}
+#art1
+{
+    width: 96%;
+    max-width: 700px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+#art2
+{
+    width: 96%;
+    max-width: 700px;
+    height: 295px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+#art3
+{
+    width: 96%;
+    max-width: 700px;
+    height: 600px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+nav
+{
+    width: 10%;
+    min-width: 200px;
+    height: 700px;
+    float: left;
+    margin: 0 30px 0 30px;
+    background-color: rgba(128,0,128, 0.75);
+    border-radius: 10px;
+    
+}
+#menürendszer > ul > li:first-child
+{
+    margin-top: 20px;
+}
+#menürendszer li
+{
+    list-style-type: none;
+}
+#menürendszer ul
+{
+    padding-left: 0px;
+    margin: 0;
+    display: block;
+    margin-right: 30px;
+    
+}
+#menürendszer ul li a
+{
+    text-decoration: none;
+    color: purple;
+    border: 1px solid black;
+    padding: 3px;
+    display: block;
+    text-align: center;
+    background-color: beige;
+}
+#menürendszer ul li a:hover
+{
+    background-color: purple;
+    color: beige;
+}
+#menürendszer ul ul a
+{
+    position: relative;
+    bottom: 20px;
+    right: 100%; 
+    display: none;
+}
+#menürendszer ul li:hover > ul a
+{
+    display: block;
+}
+footer
+{
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin: 60px 0 20px 0;
+    background-color: rgba(128,0,128, 1);
+}
+footer p
+{
+    text-align: center;
+    border-top: 1px solid black;
+}
+footer h2
+{
+    text-align: center;
+}

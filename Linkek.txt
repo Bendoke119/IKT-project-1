@@ -1,0 +1,16 @@
+old_win: https://shorturl.at/mcS1l
+new_win: 
+bg: https://shorturl.at/uoYYb
+linux1: https://shorturl.at/QRkzO
+linux2: https://shorturl.at/745IS
+linux3: https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AFedora_logo.svg&psig=AOvVaw2HsymFXIXQpV9W7srdnHrd&ust=1762180319020000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDV6MTX05ADFQAAAAAdAAAAABB2
+
+linux4: https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALinux_Mint_logo_without_wordmark.svg&psig=AOvVaw2HsymFXIXQpV9W7srdnHrd&ust=1762180319020000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDV6MTX05ADFQAAAAAdAAAAABB-
+
+
+m1: https://shorturl.at/T7vs7
+m2: https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngdownload.io%2Fpng-image%2Fapple-logo-iconic-tech-brand-symbol-png-transparent-representation-of-innovation-and-design%2F&psig=AOvVaw0kNb79VcMbw-RLH4jG-vkX&ust=1762182147541000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCIjX_Kne05ADFQAAAAAdAAAAABAL
+
+m3: https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AHMOS_Logo_Icon.svg&psig=AOvVaw2OQCZ0jetWT7_ZHLuMPbLf&ust=1762182269907000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIjvveXe05ADFQAAAAAdAAAAABAE
+
+m4: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hiclipart.com%2Ffree-transparent-background-png-clipart-xwebw&psig=AOvVaw2bXX-M0jho-Ci5vTRwKxQQ&ust=1762182339256000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKCu7YXf05ADFQAAAAAdAAAAABAE
