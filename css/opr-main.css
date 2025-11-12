@@ -1,6 +1,9 @@
 body {
     background-image: url(../images/Bg.jpg);
+    margin: 0;
+    padding: 0;
 }
+
 header {
     width: 100%;
     height: 60px;
@@ -9,65 +12,102 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: 4px double black;  
+    border-bottom: 4px double black;;              
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4); 
 }
+
 #cim {
     text-align: center;
 }
+
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 5px;
+}
+
+
+
+.div1, .div2, .div3 {
+    width: 304px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px;
+    margin-right: 60px;
+    background-color: purple;
+    margin-bottom: 60px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 10px;
+    border-radius: 20px;       
+    overflow: hidden;          
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.div3 {
+    margin-right: 0;
+}
+
+
+
 .kepek1 {
     display: flex;
     height: 300px;
     gap: 0;
     margin: 0;
-    float: left;
     background-color: white;
 }
+
 .kepek1 a {
     display: block;
     line-height: 0;
 }
+
 .kepek1 img {
     display: block;
 }
+
 .win-szoveg {
     height: 100px;
     text-align: center;
     color: beige;
 }
-.div1{
-    margin-left: 240px;
-}
-.div1, .div2, .div3 {
-    width: 304px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 30px;
-    float: left;
-    margin-top: 60px;
-    margin-right: 60px;
-    background-color: purple;
-    margin-bottom: 60px;
-}
+
 .div2, .div3 {
     gap: 0;
 }
+
 .div2 .kepek1, .div3 .kepek1 {
     height: 150px;
+    
 }
-
-section
-{
+section {
     width: 89%;
     height: 700px;
     max-width: 800px;
-    float: left;
     background-color: rgba(245,245,220,0.75);
     border-radius: 10px;
-    margin-left: 240px;
+    display: inline-block;
+    vertical-align: top;
+    border: 3px solid black;                 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
 }
-#art1
-{
+
+#art1 {
     width: 96%;
     max-width: 700px;
     height: 200px;
@@ -81,8 +121,8 @@ section
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
 }
-#art2
-{
+
+#art2 {
     width: 96%;
     max-width: 700px;
     height: 295px;
@@ -96,8 +136,8 @@ section
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
 }
-#art3
-{
+
+#art3 {
     width: 96%;
     max-width: 700px;
     height: 600px;
@@ -111,35 +151,34 @@ section
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
 }
-nav
-{
-    width: 10%;
+
+nav {
+    width: 200px;
     min-width: 200px;
     height: 700px;
-    float: left;
-    margin: 0 30px 0 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 30px;
     background-color: rgba(128,0,128, 0.75);
     border-radius: 10px;
-    
 }
-#menürendszer > ul > li:first-child
-{
+
+#menürendszer > ul > li:first-child {
     margin-top: 20px;
 }
-#menürendszer li
-{
+
+#menürendszer li {
     list-style-type: none;
 }
-#menürendszer ul
-{
+
+#menürendszer ul {
     padding-left: 0px;
     margin: 0;
     display: block;
     margin-right: 30px;
-    
 }
-#menürendszer ul li a
-{
+
+#menürendszer ul li a {
     text-decoration: none;
     color: purple;
     border: 1px solid black;
@@ -148,36 +187,38 @@ nav
     text-align: center;
     background-color: beige;
 }
-#menürendszer ul li a:hover
-{
+
+#menürendszer ul li a:hover {
     background-color: purple;
     color: beige;
 }
-#menürendszer ul ul a
-{
+
+#menürendszer ul ul a {
     position: relative;
     bottom: 20px;
     right: 100%; 
     display: none;
 }
-#menürendszer ul li:hover > ul a
-{
+
+#menürendszer ul li:hover > ul a {
     display: block;
 }
-footer
-{
+
+footer {
     width: 100%;
     height: 100px;
-    float: left;
     margin: 60px 0 20px 0;
     background-color: rgba(128,0,128, 1);
-}
-footer p
-{
+    border-top: 4px double black;  
+    border-bottom: 4px double black;;              
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);    
+}                
+
+footer p {
     text-align: center;
     border-top: 1px solid black;
 }
-footer h2
-{
+
+footer h2 {
     text-align: center;
 }
