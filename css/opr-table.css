@@ -1,0 +1,50 @@
+table, th, td {
+    border: double 2px purple;
+    
+    
+}
+th{
+    background-color: purple;
+}
+.tr-szamok{
+    background-color: purple;
+}
+.table-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}  
+table td:nth-child(1)
+        {
+            color: black;
+        } 
+.windowsok{
+    color: rgb(69, 69, 247);
+}
+table tr:nth-child(1)
+        {
+            background-color: lightblue;
+        }
+.androidok{
+    color: #366c00;
+}
+table tr:nth-child(2)
+        {
+            background-color: lightgreen;
+        }
+.ioesek{
+    color: rgb(148, 0, 0);
+}
+table tr:nth-child(3)
+        {
+            background-color: lightcoral;
+        }
+.table-linux{
+    background-color: orange;
+    color: black
+}
+.linuxok{
+    background-color: #FFD300;
+    color: rgb(117, 64, 0);
+}
+
