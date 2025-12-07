@@ -1,0 +1,36 @@
+.galéria{
+    width: 100%;
+    text-align: center;
+}
+.galéria img{
+    width: 180px;
+    border: 4px double purple;
+    opacity: 0.8;
+    transition: opacity 200ms ease-in-out;
+}
+.galéria img:hover{
+    border: 4px solid purple; 
+    opacity: 1; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05);
+}
+figure.item{
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+figure{
+    margin: 20px;
+}
+figure img{
+    vertical-align: middle;
+    height: 200px;
+}
+.felirat{
+    font-style: arial;
+    font-size: 20px;
+    display: block;
+}
+a img{
+    padding: 5px;
+}
